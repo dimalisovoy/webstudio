@@ -1,0 +1,27 @@
+.hero {
+    width: 1440px;
+    height: 600px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    background-color: #2E2F30;
+    display: flex;
+}
+
+.hero-btn {
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+.hero-btn{
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #404BBF;
+}   
